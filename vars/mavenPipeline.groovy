@@ -1,5 +1,5 @@
 def call(int javaVersion) {
-  if (javaVersion > 8) {
+  if (javaVersion == 8) {
     pipeline {
       agent any
       stages {
